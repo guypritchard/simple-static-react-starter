@@ -1,10 +1,4 @@
-# Dead simple react typescript starter kit
-
-> Just for myself
-
-This project just a simple boilerplate to use this tutorial.
-
-- React & Webpack · TypeScript https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+# Simple-ish React Typescript Starter
 
 ## Installing / Getting started
 
@@ -14,16 +8,21 @@ Just run:
 npm start 
 ```
 
-Now open up `index.html` in your favorite browser and everything should be ready to use! 
-You should see a page that says “Hello from TypeScript and React!”
+Open up http://localhost:9000 to browse the simple starter code.
+
+Similarly 
+```shell
+npm run build
+```
+
+To build a static site with minified code.
 
 ## Usage
 
 When using it as a scaffold, shallow clone only the latest history.
 
-
 ```
-git clone --depth 1 https://github.com/mitsuruog/dead-simple-react-typescript-starter.git
+git clone --depth 1 https://github.com/guypritchard/simple-static-react-starter.git
 ```
 
 ## Licensing
