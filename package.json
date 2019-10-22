@@ -1,0 +1,31 @@
+{
+  "name": "simple-ish-react-typescript-starter",
+  "version": "1.0.0",
+  "description": "A simple-ish react/typescript starter.  Based heavily on 'dead-simple-react-typescript-starter' by Mitsuru Ogawa",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.prod.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js"
+  },
+  "engines": {
+    "node": ">=v8.9.0"
+  },
+  "author": "guy.pritchard@outlook.com",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "copy-webpack-plugin": "^5.0.4",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
