@@ -1,5 +1,7 @@
 # Simple-ish React Typescript Starter
 
+Based very heavily on https://github.com/mitsuruog/dead-simple-react-typescript-starter with a few changes for me.
+
 ## Installing / Getting started
 
 Just run:
