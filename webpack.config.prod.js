@@ -6,8 +6,13 @@ module.exports = merge(common, {
   mode: 'production',
   devtool: 'source-map',
   plugins: [
-    new CopyPlugin([ 
-      { from: 'src/index.html', to:'dist/index.html'} 
-    ]),
+    new CopyPlugin({
+      patterns: [
+        { 
+          from: 'src/index.html', 
+          to:'dist/index.html'
+        }]
+      }
+    ),
   ],
 });
