@@ -10,7 +10,7 @@ module.exports = merge(
    devtool: 'source-map',
    devServer: {
     static: path.join(__dirname, 'src'),
-    port: 3000,
+    port: 9000,
     open: true,
   },
 });
