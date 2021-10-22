@@ -10,7 +10,7 @@ module.exports = merge(common, {
       patterns: [
         { 
           from: 'src/index.html', 
-          to:'dist/index.html'
+          to:'index.html'
         }]
       }
     ),

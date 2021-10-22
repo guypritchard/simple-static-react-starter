@@ -27,6 +27,12 @@ When using it as a scaffold, shallow clone only the latest history.
 git clone --depth 1 https://github.com/guypritchard/simple-static-react-starter.git
 ```
 
+## Azure Deployment
+
+The terraform directory contains the bare minimum for hosting the React static site in Azure.
+
+Change the ./terraform/variables.tf values to specify unique values (location, project & instance) for the project.
+
 ## Licensing
 
 MIT

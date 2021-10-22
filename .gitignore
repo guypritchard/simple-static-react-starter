@@ -64,3 +64,11 @@ typings/
 .tmp
 .idea
 dist
+.terraform
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# dont commit lock state in this case.
+.terraform.lock.hcl
