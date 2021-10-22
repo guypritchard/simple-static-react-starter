@@ -33,6 +33,23 @@ The terraform directory contains the bare minimum for hosting the React static s
 
 Change the ./terraform/variables.tf values to specify unique values (location, project & instance) for the project.
 
+Authenticate with your Azure account using the Azure CLI: 
+```
+az login
+```
+
+To see the proposed environmental changes.
+```
+terraform plan 
+```
+
+To perform the deployment you'll need to do a production build and terraform:
+
+```
+npm run build
+terraform apply
+```
+
 ## Licensing
 
 MIT
